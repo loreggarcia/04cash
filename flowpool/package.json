@@ -1,0 +1,18 @@
+{
+  "name": "flowpool",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.6.3",
+  "scripts": {
+    "dev": "corepack pnpm --parallel --filter @flowpool/api --filter @flowpool/web dev",
+    "dev:web": "corepack pnpm --filter @flowpool/web dev",
+    "dev:api": "corepack pnpm --filter @flowpool/api dev",
+    "build": "corepack pnpm -r build",
+    "lint": "corepack pnpm -r lint",
+    "test": "corepack pnpm -r test",
+    "db:push": "corepack pnpm --filter @flowpool/api prisma:push",
+    "seed": "corepack pnpm --filter @flowpool/api prisma:seed",
+    "contracts:test": "corepack pnpm --filter @flowpool/contracts test",
+    "contracts:build": "corepack pnpm --filter @flowpool/contracts build"
+  }
+}

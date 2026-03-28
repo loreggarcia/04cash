@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowJs": false,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@flowpool/types": ["packages/types/src"],
+      "@flowpool/ui": ["packages/ui/src"],
+      "@flowpool/sdk": ["packages/sdk/src"]
+    }
+  }
+}

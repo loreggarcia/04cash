@@ -1,0 +1,7 @@
+flowpool/node_modules
+flowpool/**/node_modules
+flowpool/apps/web/.next
+flowpool/apps/web/.next.bak.buildfix
+flowpool/.env
+flowpool/apps/api/.env
+*.tsbuildinfo

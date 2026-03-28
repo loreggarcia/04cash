@@ -1,0 +1,42 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es2022"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@flowpool/types": [
+        "../../packages/types/src"
+      ],
+      "@flowpool/ui": [
+        "../../packages/ui/src"
+      ],
+      "@flowpool/sdk": [
+        "../../packages/sdk/src"
+      ]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "incremental": true,
+    "noEmit": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

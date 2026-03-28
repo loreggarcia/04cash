@@ -1,0 +1,15 @@
+packages:
+  - apps/*
+  - packages/*
+  - contracts
+ignoredBuiltDependencies:
+  - '@nestjs/core'
+  - '@prisma/client'
+  - '@prisma/engines'
+  - bufferutil
+  - esbuild
+  - keccak
+  - msgpackr-extract
+  - prisma
+  - sharp
+  - utf-8-validate
