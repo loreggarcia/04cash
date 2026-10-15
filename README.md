@@ -1,6 +1,6 @@
-# FlowPool
+# 04Cash
 
-FlowPool is a programmable liquidity operating system built for Monad Testnet. The project simulates how fiat inflows such as Pix can be converted into onchain liquidity that funds API usage, AI agents, auto-recharge flows, and yield strategies in a single product experience.
+04Cash is a programmable liquidity operating system built for Monad Testnet. The project simulates how fiat inflows such as Pix can be converted into onchain liquidity that funds API usage, AI agents, auto-recharge flows, and yield strategies in a single product experience.
 
 ## What the project includes
 
